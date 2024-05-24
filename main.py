@@ -84,7 +84,7 @@ class Game:
             # Check if the current player has a winning row:
             for i, row in enumerate(self.matrix):
                 if has_winning_list(row):
-                    logging.info(f'Player {self.current_player} won in row {i}')
+                    logging.info(f'Player {self.current_player+1} won in row {i}')
                     return [True,f"row{i+1}"]
             
             # Check if the current player has a winning col:
@@ -92,18 +92,18 @@ class Game:
 
             for j, col in enumerate(transposed_matrix):
                 if has_winning_list(col):
-                    logging.info(f'Player {self.current_player} won in col {j}')
+                    logging.info(f'Player {self.current_player+1} won in col {j}')
                     return [True,f"col{j+1}"]
 
             # Check if the current player has a winning diagonal:
             diagonal1=[self.matrix[0][0],self.matrix[1][1],self.matrix[2][2]]
             if has_winning_list(diagonal1):
-                logging.info(f'Player {self.current_player} won in diagonal 1')
+                logging.info(f'Player {self.current_player+1} won in diagonal 1')
                 return [True,"diagonal1"]
 
             diagonal2 = [self.matrix[2][0],self.matrix[1][1],self.matrix[0][2]]
             if has_winning_list(diagonal2):
-                logging.info(f'Player {self.current_player} won in diagonal 2')
+                logging.info(f'Player {self.current_player+1} won in diagonal 2')
                 return [True,"diagonal2"]
             
             return [False,None]
