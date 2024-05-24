@@ -1,0 +1,20 @@
+2024-05-24 22:29:13,436:main.py - __init__:16 - ------ New Game Started ------
+2024-05-24 22:29:19,360:main.py - take_turn:131 - Player 1 played at row 1 and 1
+2024-05-24 22:29:21,428:main.py - take_turn:131 - Player 2 played at row 1 and 2
+2024-05-24 22:29:24,335:main.py - take_turn:131 - Player 1 played at row 2 and 2
+2024-05-24 22:29:24,919:main.py - take_turn:131 - Player 2 played at row 3 and 3
+2024-05-24 22:29:26,884:main.py - take_turn:131 - Player 1 played at row 1 and 3
+2024-05-24 22:29:30,847:main.py - take_turn:131 - Player 2 played at row 3 and 1
+2024-05-24 22:29:32,633:main.py - take_turn:131 - Player 1 played at row 3 and 2
+2024-05-24 22:29:33,627:main.py - take_turn:131 - Player 2 played at row 2 and 1
+2024-05-24 22:29:34,561:main.py - take_turn:131 - Player 1 played at row 2 and 3
+2024-05-24 22:29:34,564:main.py - run:239 - Game ended in a draw
+2024-05-24 22:29:34,564:main.py - end_game:159 - ------ Game Ended ------
+2024-05-24 22:35:50,584:main.py - __init__:17 - ------ New Game Started ------
+2024-05-24 22:35:52,058:main.py - take_turn:132 - Player 1 played at row 1 and 1
+2024-05-24 22:35:52,757:main.py - take_turn:132 - Player 2 played at row 1 and 2
+2024-05-24 22:35:53,612:main.py - take_turn:132 - Player 1 played at row 2 and 1
+2024-05-24 22:35:54,014:main.py - take_turn:132 - Player 2 played at row 2 and 2
+2024-05-24 22:35:54,533:main.py - take_turn:132 - Player 1 played at row 3 and 1
+2024-05-24 22:35:54,534:main.py - is_victorious:95 - Player 0 won in col 0
+2024-05-24 22:35:54,535:main.py - end_game:160 - ------ Game Ended ------
